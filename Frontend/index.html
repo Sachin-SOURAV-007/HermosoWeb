@@ -1,1 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HermosoWeb | Affordable AI-Powered Websites</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<nav>
+  <h2>HermosoWeb</h2>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#workflow">Workflow</a></li>
+    <li><a href="#pricing">Pricing</a></li>
+    <li><a href="#students">Students</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+  
+<header class="hero">
+  <h1>Affordable Websites Powered by Students & AI</h1>
+  <p>We help businesses grow by providing low-cost, high-quality websites built by trained students.</p>
+  <button onclick="scrollToForm()">Get Your Website</button>
+</header>
+  
+<section id="about">
+  <h2>About HermosoWeb</h2>
+  <p>
+    HermosoWeb is a platform designed to make website development affordable for everyone.
+    We connect clients with student developers who work under proper guidance.
+    This approach helps students gain real-world experience while reducing development cost.
+  </p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="cards">
+    <div class="card">
+      <h3>Portfolio Websites</h3>
+      <p>Perfect for students, freelancers, and professionals.</p>
+    </div>
+    <div class="card">
+      <h3>Business Websites</h3>
+      <p>Modern websites for small businesses and startups.</p>
+    </div>
+    <div class="card">
+      <h3>Landing Pages</h3>
+      <p>High-conversion landing pages for marketing campaigns.</p>
+    </div>
+    <div class="card">
+      <h3>E-Commerce (Basic)</h3>
+      <p>Simple online stores with product listings.</p>
+    </div>
+  </div>
+</section>
+
+<section id="workflow">
+  <h2>AI-Driven Workflow</h2>
+  <p style="max-width:700px;margin:auto;">
+    HermosoWeb follows a futuristic, AI-powered workflow where intelligent agents
+    assist students and automate the entire website development process.
+  </p>
+
+  <div class="workflow-container">
+
+    <div class="workflow-step">
+      <span>01</span>
+      <h3>Client Onboarding</h3>
+      <p>User submits requirements through the platform or AI chatbot.</p>
+    </div>
+
+    <div class="workflow-step">
+      <span>02</span>
+      <h3>AI Requirement Analysis</h3>
+      <p>LLM analyzes requirements and estimates cost & timeline.</p>
+    </div>
+
+    <div class="workflow-step">
+      <span>03</span>
+      <h3>Student + AI Collaboration</h3>
+      <p>Skilled students work with AI guidance to build the website.</p>
+    </div>
+
+    <div class="workflow-step">
+      <span>04</span>
+      <h3>AI Quality Check</h3>
+      <p>Agentic AI reviews performance, responsiveness, and UX.</p>
+    </div>
+
+    <div class="workflow-step">
+      <span>05</span>
+      <h3>Delivery & Support</h3>
+      <p>Website is delivered with AI-powered customer support.</p>
+    </div>
+
+  </div>
+</section>
+
+<section id="ai">
+  <h2>AI & Agentic Intelligence</h2>
+  <p>
+    HermosoWeb integrates an LLM-based customer support agent to assist users.
+    The AI chatbot answers queries, explains pricing, and guides clients automatically.
+  </p>
+  <div class="cards">
+    <div class="card">
+      <h3>LLM Chatbot</h3>
+      <p>Handles customer queries using Natural Language Processing.</p>
+    </div>
+    <div class="card">
+      <h3>Agentic AI</h3>
+      <p>Autonomously decides actions like cost estimation and support escalation.</p>
+    </div>
+    <div class="card">
+      <h3>Future ML Features</h3>
+      <p>Student-project matching and AI quality analysis.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pricing">
+  <h2>Pricing Plans</h2>
+  <div class="cards">
+    <div class="card price">
+      ₹1999
+      <span>Basic Website</span>
+    </div>
+    <div class="card price">
+      ₹3999
+      <span>Standard Website</span>
+    </div>
+    <div class="card price">
+      ₹6999
+      <span>Advanced Website</span>
+    </div>
+  </div>
+</section>
+
+<section id="students">
+  <h2>For Students</h2>
+  <p>
+    HermosoWeb provides students with real-world projects to enhance their skills.
+    Students gain experience in frontend, backend, and AI-integrated systems.
+  </p>
+  <div class="cards">
+    <div class="card">
+      <h3>Skill Development</h3>
+      <p>Learn industry-level web technologies.</p>
+    </div>
+    <div class="card">
+      <h3>Live Projects</h3>
+      <p>Work on real client requirements.</p>
+    </div>
+    <div class="card">
+      <h3>AI Guidance</h3>
+      <p>Get assistance from AI-based learning agents.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Request a Website</h2>
+  <form id="requestForm">
+    <input type="text" placeholder="Your Name" required />
+    <input type="email" placeholder="Email Address" required />
+    <select required>
+      <option value="">Website Type</option>
+      <option>Portfolio</option>
+      <option>Business</option>
+      <option>E-Commerce</option>
+    </select>
+    <button type="submit">Submit Request</button>
+  </form>
+</section>
+
+<div class="chatbot">
+  <div class="chat-header">HermosoBot 🤖</div>
+  <div class="chat-body" id="chatBody">
+    <p><b>HermosoBot:</b> Hi! How can I help you today?</p>
+  </div>
+  <div class="chat-input">
+    <input type="text" id="chatInput" placeholder="Ask something..." />
+    <button onclick="sendMessage()">Send</button>
+  </div>
+</div>
+
+<footer style="text-align:center;padding:30px;color:#94a3b8;">
+  © 2025 HermosoWeb • Built by Students • Powered by AI
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
 
