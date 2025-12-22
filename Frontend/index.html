@@ -1,197 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>HermosoWeb | Affordable AI-Powered Websites</title>
-  <link rel="stylesheet" href="style.css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HermosoWeb | Premium Website Development Agency</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<nav>
-  <h2>HermosoWeb</h2>
-  <ul>
-    <li><a href="#about">About</a></li>
-    <li><a href="#services">Services</a></li>
-    <li><a href="#workflow">Workflow</a></li>
-    <li><a href="#pricing">Pricing</a></li>
-    <li><a href="#students">Students</a></li>
-    <li><a href="#contact">Contact</a></li>
-  </ul>
-</nav>
-  
-<header class="hero">
-  <h1>Affordable Websites Powered by Students & AI</h1>
-  <p>We help businesses grow by providing low-cost, high-quality websites built by trained students.</p>
-  <button onclick="scrollToForm()">Get Your Website</button>
-</header>
-  
-<section id="about">
-  <h2>About HermosoWeb</h2>
-  <p>
-    HermosoWeb is a platform designed to make website development affordable for everyone.
-    We connect clients with student developers who work under proper guidance.
-    This approach helps students gain real-world experience while reducing development cost.
-  </p>
-</section>
+    <nav class="navbar">
+        <div class="logo">Hermoso<span>Web</span></div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact" class="btn-nav">Get Started</a></li>
+        </ul>
+        <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+    </nav>
 
-<section id="services">
-  <h2>Our Services</h2>
-  <div class="cards">
-    <div class="card">
-      <h3>Portfolio Websites</h3>
-      <p>Perfect for students, freelancers, and professionals.</p>
-    </div>
-    <div class="card">
-      <h3>Business Websites</h3>
-      <p>Modern websites for small businesses and startups.</p>
-    </div>
-    <div class="card">
-      <h3>Landing Pages</h3>
-      <p>High-conversion landing pages for marketing campaigns.</p>
-    </div>
-    <div class="card">
-      <h3>E-Commerce (Basic)</h3>
-      <p>Simple online stores with product listings.</p>
-    </div>
-  </div>
-</section>
+    <header id="home" class="hero-section">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge">#1 Affordable Web Agency</span>
+                <h1>Crafting Digital <br><span class="gradient-text">Masterpieces</span></h1>
+                <p>Ab har business banega digital. High-performance, SEO-friendly, and stunning websites starting from just ₹1499.</p>
+                <div class="hero-btns">
+                    <a href="#pricing" class="btn-primary">View Packages</a>
+                    <a href="#portfolio" class="btn-secondary">Our Work</a>
+                </div>
+            </div>
+        </div>
+        <div class="hero-overlay"></div>
+    </header>
 
-<section id="workflow">
-  <h2>AI-Driven Workflow</h2>
-  <p style="max-width:700px;margin:auto;">
-    HermosoWeb follows a futuristic, AI-powered workflow where intelligent agents
-    assist students and automate the entire website development process.
-  </p>
+    <section class="stats-section">
+        <div class="stat-item">
+            <h2>500+</h2>
+            <p>Projects Delivered</p>
+        </div>
+        <div class="stat-item">
+            <h2>150+</h2>
+            <p>Happy Clients</p>
+        </div>
+        <div class="stat-item">
+            <h2>24/7</h2>
+            <p>Support</p>
+        </div>
+    </section>
 
-  <div class="workflow-container">
+    <section id="services" class="services-section">
+        <div class="section-title">
+            <h2>Our specialized <span>Services</span></h2>
+            <p>We don't just build websites; we build business tools.</p>
+        </div>
+        <div class="services-grid">
+            <div class="service-card">
+                <i class="fas fa-code"></i>
+                <h3>Web Development</h3>
+                <p>MERN Stack, WordPress, and Custom HTML/CSS solutions.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-rocket"></i>
+                <h3>SEO Optimization</h3>
+                <p>Rank your business on the first page of Google.</p>
+            </div>
+            <div class="service-card">
+                <i class="fas fa-robot"></i>
+                <h3>AI Integration</h3>
+                <p>Automate your sales with Agentic AI and Chatbots.</p>
+            </div>
+        </div>
+    </section>
 
-    <div class="workflow-step">
-      <span>01</span>
-      <h3>Client Onboarding</h3>
-      <p>User submits requirements through the platform or AI chatbot.</p>
+    <section id="pricing" class="pricing-section">
+        <div class="section-title">
+            <h2>Choose Your <span>Plan</span></h2>
+        </div>
+        <div class="pricing-wrapper">
+            <div class="price-card">
+                <div class="card-header">
+                    <h3>Starter</h3>
+                    <div class="price">₹1,499</div>
+                </div>
+                <ul class="features">
+                    <li><i class="fas fa-check"></i> Single Page Design</li>
+                    <li><i class="fas fa-check"></i> Mobile Responsive</li>
+                    <li><i class="fas fa-check"></i> SSL Certificate</li>
+                    <li class="disabled"><i class="fas fa-times"></i> Custom Domain</li>
+                </ul>
+                <button class="btn-price">Get Started</button>
+            </div>
+            <div class="price-card popular">
+                <div class="popular-tag">Most Recommended</div>
+                <div class="card-header">
+                    <h3>Business</h3>
+                    <div class="price">₹3,499</div>
+                </div>
+                <ul class="features">
+                    <li><i class="fas fa-check"></i> 5 Premium Pages</li>
+                    <li><i class="fas fa-check"></i> SEO Ready</li>
+                    <li><i class="fas fa-check"></i> WhatsApp Chat</li>
+                    <li><i class="fas fa-check"></i> 1 Year Support</li>
+                </ul>
+                <button class="btn-price featured">Buy Business</button>
+            </div>
+            <div class="price-card">
+                <div class="card-header">
+                    <h3>Enterprise</h3>
+                    <div class="price">₹8,999+</div>
+                </div>
+                <ul class="features">
+                    <li><i class="fas fa-check"></i> Unlimited Pages</li>
+                    <li><i class="fas fa-check"></i> Payment Gateway</li>
+                    <li><i class="fas fa-check"></i> Agentic AI Bot</li>
+                    <li><i class="fas fa-check"></i> Admin Dashboard</li>
+                </ul>
+                <button class="btn-price">Contact Sales</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="why-us">
+        <div class="why-content">
+            <h2>Why Choose <span>HermosoWeb?</span></h2>
+            <p>Hum sirf design nahi karte, hum results dete hain.</p>
+            <div class="benefits">
+                <div class="benefit"><i class="fas fa-bolt"></i> Fast Delivery (3-5 Days)</div>
+                <div class="benefit"><i class="fas fa-shield-alt"></i> Secure & Safe</div>
+                <div class="benefit"><i class="fas fa-headset"></i> Dedicated Manager</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="ai-chat-launcher" onclick="toggleChat()">
+        <i class="fas fa-comment-dots"></i>
     </div>
 
-    <div class="workflow-step">
-      <span>02</span>
-      <h3>AI Requirement Analysis</h3>
-      <p>LLM analyzes requirements and estimates cost & timeline.</p>
+    <div class="chat-container" id="chatBox">
+        <div class="chat-header">
+            <h4>Hermoso AI Assistant</h4>
+            <span onclick="toggleChat()">&times;</span>
+        </div>
+        <div class="chat-messages" id="chatMessages">
+            <div class="bot-msg">Hi! Main HermosoWeb ka AI Agent hoon. Kya main aapki website choose karne me help karun?</div>
+        </div>
+        <div class="chat-input">
+            <input type="text" id="aiInput" placeholder="Write a message...">
+            <button onclick="handleChat()"><i class="fas fa-paper-plane"></i></button>
+        </div>
     </div>
 
-    <div class="workflow-step">
-      <span>03</span>
-      <h3>Student + AI Collaboration</h3>
-      <p>Skilled students work with AI guidance to build the website.</p>
-    </div>
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <h2>Let's Build Your <br><span>Digital Identity</span></h2>
+                    <p>Form bhariye aur hamari team 24 ghante ke andar aapse connect karegi.</p>
+                    <div class="info-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>support@hermosoweb.com</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>+91 98765 43210</span>
+                    </div>
+                </div>
+    
+                <div class="contact-form-container">
+                    <form id="orderForm">
+                        <div class="input-group">
+                            <input type="text" id="name" required placeholder="Full Name">
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="email" required placeholder="Email Address">
+                        </div>
+                        <div class="input-group">
+                            <select id="plan" required>
+                                <option value="" disabled selected>Select Your Plan</option>
+                                <option value="starter">Starter - ₹1,499</option>
+                                <option value="business">Business - ₹3,499</option>
+                                <option value="enterprise">Enterprise - ₹8,999+</option>
+                            </select>
+                        </div>
+                        <div class="input-group">
+                            <textarea id="message" rows="4" placeholder="Tell us about your project..."></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Inquiry <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="workflow-step">
-      <span>04</span>
-      <h3>AI Quality Check</h3>
-      <p>Agentic AI reviews performance, responsiveness, and UX.</p>
-    </div>
+    <footer id="contact">
+        <p>&copy; 2025 HermosoWeb. Built for the Future.</p>
+    </footer>
 
-    <div class="workflow-step">
-      <span>05</span>
-      <h3>Delivery & Support</h3>
-      <p>Website is delivered with AI-powered customer support.</p>
-    </div>
-
-  </div>
-</section>
-
-<section id="ai">
-  <h2>AI & Agentic Intelligence</h2>
-  <p>
-    HermosoWeb integrates an LLM-based customer support agent to assist users.
-    The AI chatbot answers queries, explains pricing, and guides clients automatically.
-  </p>
-  <div class="cards">
-    <div class="card">
-      <h3>LLM Chatbot</h3>
-      <p>Handles customer queries using Natural Language Processing.</p>
-    </div>
-    <div class="card">
-      <h3>Agentic AI</h3>
-      <p>Autonomously decides actions like cost estimation and support escalation.</p>
-    </div>
-    <div class="card">
-      <h3>Future ML Features</h3>
-      <p>Student-project matching and AI quality analysis.</p>
-    </div>
-  </div>
-</section>
-
-<section id="pricing">
-  <h2>Pricing Plans</h2>
-  <div class="cards">
-    <div class="card price">
-      ₹1999
-      <span>Basic Website</span>
-    </div>
-    <div class="card price">
-      ₹3999
-      <span>Standard Website</span>
-    </div>
-    <div class="card price">
-      ₹6999
-      <span>Advanced Website</span>
-    </div>
-  </div>
-</section>
-
-<section id="students">
-  <h2>For Students</h2>
-  <p>
-    HermosoWeb provides students with real-world projects to enhance their skills.
-    Students gain experience in frontend, backend, and AI-integrated systems.
-  </p>
-  <div class="cards">
-    <div class="card">
-      <h3>Skill Development</h3>
-      <p>Learn industry-level web technologies.</p>
-    </div>
-    <div class="card">
-      <h3>Live Projects</h3>
-      <p>Work on real client requirements.</p>
-    </div>
-    <div class="card">
-      <h3>AI Guidance</h3>
-      <p>Get assistance from AI-based learning agents.</p>
-    </div>
-  </div>
-</section>
-
-<section id="contact">
-  <h2>Request a Website</h2>
-  <form id="requestForm">
-    <input type="text" placeholder="Your Name" required />
-    <input type="email" placeholder="Email Address" required />
-    <select required>
-      <option value="">Website Type</option>
-      <option>Portfolio</option>
-      <option>Business</option>
-      <option>E-Commerce</option>
-    </select>
-    <button type="submit">Submit Request</button>
-  </form>
-</section>
-
-<div class="chatbot">
-  <div class="chat-header">HermosoBot 🤖</div>
-  <div class="chat-body" id="chatBody">
-    <p><b>HermosoBot:</b> Hi! How can I help you today?</p>
-  </div>
-  <div class="chat-input">
-    <input type="text" id="chatInput" placeholder="Ask something..." />
-    <button onclick="sendMessage()">Send</button>
-  </div>
-</div>
-
-<footer style="text-align:center;padding:30px;color:#94a3b8;">
-  © 2025 HermosoWeb • Built by Students • Powered by AI
-</footer>
-
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
-
